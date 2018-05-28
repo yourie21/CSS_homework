@@ -1,0 +1,180 @@
+/* this is to reset chrome browser */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header {
+    width: 970px;
+    height: auto;
+    /* background: green; */
+}
+.header img {
+    width: 100px;
+    display: inline-block;
+}
+.header h1 {
+    font-size: 50px;
+    font-weight: 200;
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 30px;
+    color: rgb(80, 80, 80);
+}
+.header span {
+    color:  #407cb0; 
+}
+.header h2 {
+    color: white;
+    font-size: 32px;
+    font-weight: 200;
+    background-color: #407cb0;
+    padding: 10px 20px;
+    margin-top: -20px;
+    background: linear-gradient(#407cb0, rgb(103, 146, 192), #407cb0);
+}
+
+/*=============  LEFT BAR ==================  */
+.left {
+    height: 700px;
+    width: 210px;
+    /* background: yellowgreen; */
+    background: linear-gradient(rgba(228, 228, 228, 0.479), white);
+    padding: 30px 10px;
+    display: inline-block;   
+}
+.left span{
+    color: red;
+}
+.left h5 {
+    margin-top: 10px;
+    font-size: 15px;
+}
+.left h5 span {
+    color: #407cb0; 
+}
+.left h3 {
+    color: white;
+    background: #407cb0;
+    text-align: center;
+    font-weight: 100;
+    padding: 10px;
+    margin-top: 30px;
+    box-shadow: 3px 2px 5px rgb(92, 92, 92); 
+    border-radius: 10px;
+}
+.left .orange {
+    background: #ef8000;
+    margin-top: 5px;
+    margin-bottom: 30px;
+}
+.ads {
+    width: 210px;
+    height: 280px;
+    margin-top: 30px;
+    padding-top: 30px;
+    background-image: url("hw10img/ad_background.png");
+    /* background: blue; */
+    text-align: center;
+}
+.ads p {
+    color: white;
+    font-size: 24px;
+}
+#ninja {
+    width: 90px;
+}
+button {
+    background: #10c5df;
+    color: white;
+    padding: 5px 20px;
+    font-size: 17px;
+    border-radius: 7px; 
+}
+
+/* ===================== MAIN CONTENT ================== */
+.main {
+    width: 700px;
+    height: 740px;
+    /* background: #ef8000; */
+    background: linear-gradient(rgba(228, 228, 228, 0.479), white);    
+    display: inline-block;
+    vertical-align: top;
+    margin-left: -4px;
+    padding: 0 20px;
+}
+#home {
+    width: 20px;
+    margin-top: 10px;
+    vertical-align: top;
+    display: inline-block;  
+}
+.top h4 {
+    display: inline-block;
+    vertical-align: top;    
+    color: #407cb0;    
+    margin-top: 10px;
+}
+#phone {
+    width: 40px;
+    display: inline-block;
+    margin-left: 450px;
+}
+.corner {
+    display: inline-block;
+    font-size: 10px;
+    margin-bottom: 15px;
+}
+#num {
+    font-size: 22px;
+    color: #10c5df;
+    font-weight: 700;
+}
+/* ======= MIDDLE Main BODY ========== */
+.middle{
+    width: 700px;
+    height: auto;
+    /* background: pink; */
+    display: inline-block;
+    margin-left: -4px;
+    padding: 10px 20px;
+    
+}
+.middle h3 {
+    color: #407cb0;
+    line-height: 30px;
+}
+span {
+    color: #10c5df;
+}
+.middle li {
+    line-height: 20px;
+    padding-left: 30px;
+    list-style-position: inside;  
+}
+.middle img {
+    margin: 20px 200px;
+    width: 300px;
+}
+/* ========= FOOTTER ============== */
+
+.footer {
+    height: 140px;
+    width: 700px;
+    /* background: orchid; */
+    display: inline-block;
+    border-top: solid 5px #407cb0;
+    border-left: solid 5px #407cb0;
+    border-right: solid 5px #407cb0;
+}
+.footer img{
+    width: 130px;
+}
+.end {
+    display: inline-block; 
+    width: 400px;
+}
+.end h3 {
+    color: #407cb0;
+}
